@@ -1,48 +1,61 @@
-Online-Service-Management-System/
-│
-├── README.md
-├── LICENSE
-├── .gitignore
-│
-├── database/
-│   └── service_management.sql
-│
-├── src/
-│   ├── Controller/
-│   │   ├── LoginServlet.java
-│   │   ├── RegisterServlet.java
-│   │   ├── ServiceRequestServlet.java
-│   │   └── StatusUpdateServlet.java
-│   │
-│   ├── Dao/
-│   │   ├── DBConnection.java
-│   │   ├── UserDAO.java
-│   │   └── ServiceDAO.java
-│   │
-│   ├── Model/
-│   │   ├── User.java
-│   │   └── ServiceRequest.java
-│   │
-│   └── Utility/
-│       └── DBUtil.java
-│
-├── WebContent/
-│   ├── index.jsp
-│   ├── login.jsp
-│   ├── register.jsp
-│   ├── dashboard.jsp
-│   ├── addService.jsp
-│   ├── trackService.jsp
-│   ├── adminDashboard.jsp
-│   │
-│   ├── css/
-│   │   └── style.css
-│   │
-│   ├── js/
-│   │   └── script.js
-│   │
-│   └── images/
-│       └── logo.png
-│
-└── WEB-INF/
-    └── web.xml
+# Online Service Management System
+
+## Overview
+
+The Online Service Management System is a web-based application developed to simplify service request management. Users can submit service requests, monitor their status, and receive updates, while administrators can efficiently manage requests through a centralized dashboard.
+
+## Features
+
+- User Registration and Login
+- Service Request Submission
+- Service Tracking
+- Customer Management
+- Admin Dashboard
+- Request Status Updates
+- Secure Authentication
+
+## Technologies Used
+
+### Frontend
+- HTML
+- CSS
+- JavaScript
+- Bootstrap
+
+### Backend
+- Java
+- JSP
+- Servlets
+
+### Database
+- MySQL
+
+### Tools
+- JDBC
+- Apache Tomcat
+- Eclipse / VS Code
+
+## Modules
+
+### User Module
+- Register/Login
+- Submit Service Requests
+- View Request Status
+- Track Service History
+
+### Admin Module
+- Manage Users
+- Manage Service Requests
+- Update Request Status
+- Generate Reports
+
+## Future Enhancements
+
+- Email Notifications
+- SMS Alerts
+- Online Payment Integration
+- Customer Feedback System
+
+## Author
+
+Janani Lakshmi
